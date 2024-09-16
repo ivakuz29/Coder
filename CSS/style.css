@@ -48,17 +48,23 @@ body {
     color: green;
   }
   
-  / visited link /
+  link /
   a:visited {
     color: green;
   }
   
-  / mouse over link /
+  link /
   a:hover {
     color: red;
   }
   
-  / selected link */
+   link /
   a:active {
     color: yellow;
   }
+
+  
+a:hover {
+  color: rgb(181, 0, 242);
+  font-size: xx-large
+}
