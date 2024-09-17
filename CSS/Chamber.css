@@ -54,16 +54,16 @@ h1, h2 {
     color: #333;
 }
 
-#about p, <#1277969228238032926>ours ul, #contact p {
+#about p, #hours ul, #contact p {
     margin-top: 10px;
     font-size: 1.1em;
 }
 
-<#1277969228238032926>ours ul {
+#hours ul {
     list-style-type: none;
 }
 
-<#1277969228238032926>ours ul li {
+#hours ul li {
     margin: 5px 0;
 }
 
@@ -98,6 +98,4 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
-    color: white;
-    margin-top: 20px;
-}
+... (7 lines left)
