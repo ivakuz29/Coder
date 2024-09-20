@@ -1,11 +1,13 @@
+
+
 body {
-    background-color: powderblue;
+    background-color: white;
   }
   h1 {
-    color: blue;
+    color: black;
   }
   p {
-    color: red;
+    color: black;
   }
 
   <link rel="stylesheet" href="style.css">
@@ -16,6 +18,15 @@ body {
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
+
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -23,7 +34,7 @@ body {
     'menu main main main right right'
     'menu footer footer footer footer footer';
   gap: 10px;
-  background-color: #2196F3;
+  background-color: #585f68;
   padding: 10px;
 }
 
@@ -34,10 +45,10 @@ body {
   font-size: 30px;
 }
   h1 {
-    color: blue;
+    color: rgb(0, 0, 0);
   }
   p {
-    color: red;
+    color: rgb(0, 0, 0);
   }
   
   a:hover {
