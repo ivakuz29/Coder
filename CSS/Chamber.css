@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #4A90E2;
+    background-color: #e24a4a;
     color: white;
     padding: 20px;
     text-align: center;
@@ -54,12 +54,12 @@ h1, h2 {
     color: #333;
 }
 
-#about p, <>ours ul, #contact p {
+#about p, <h1>ours ul, #contact p {
     margin-top: 10px;
     font-size: 1.1em;
 }
 
-<>ours ul {
+     <h1>ours ul {
     list-style-type: none;
 }
 
