@@ -1,81 +1,66 @@
-
-
+/* Global Styling */
 body {
-    background-color: white;
-  }
-  h1 {
-    color: black;
-  }
-  p {
-    color: black;
-  }
-
-  <link rel="stylesheet" href="style.css">
-
-  .item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-
-.grid-container {
-  display: grid;
-  column-gap: 50px;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center; 
+  color: #ff0000; /
 }
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: #585f68;
-  padding: 10px;
+/* tool Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;}
+
+li {
+  display: inline-block;
+  padding: 14px 20px; /*toolbar størelse*/
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+li a {
+  text-decoration: none;
+  color: white; /*font på toolbar*/
+  font-weight: bold;
+  padding: 14px 20px;
+  transition: 0.3s; 
 }
-  h1 {
-    color: rgb(0, 0, 0);
-  }
-  p {
-    color: rgb(0, 0, 0);
-  }
-  
-  a:hover {
-    background-color: yellow;
-  }
 
-  a:link { 
-    color: green;
-  }
-  
-  link /
-  a:visited {
-    color: green;
-  }
-  
-  link /
-  a:hover {
-    color: red;
-  }
-  
-   link /
-  a:active {
-    color: yellow;
-  }
-
-
-a:hover {
-  color: rgb(205, 89, 35);
-  font-size: xx-large
+li a:hover {
+  background-color: #545151;
+  color: #ffd700; /* farge på linker */
+  border-radius: 4px;
 }
+
+
+h1, h2 {
+  color: #2c3e50; /* farge på h1 og h2 tekst */
+}
+
+p {
+  color: #444; /* farge på paragraph tekster */
+  font-size: 1.1em;  
+  max-width: 800px;
+  margin: 20px auto; /* sentrerer*/
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* legger til en skygge på bilder */
+  margin: 10px auto;
+}
+
+/* Sections Styling */
+section {
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+#home {
+  background-color: #ecf0f1;
