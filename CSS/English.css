@@ -18,24 +18,19 @@ header h1, header p {
     text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Creates a shadow outline */
 }
 
-
-
-/* Center the text in all sections */
-.section {
-    text-align: center; /* This centers the text within each section */
-}
-
-/* Optional: Centering the navigation links */
 nav {
-    text-align: center; /* Centers the nav items */
+    background-color: #a17474;
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
 }
 
 nav a {
-    margin: 0 15px; /* Optional: Add some spacing between the links */
-    text-decoration: none; /* Optional: Remove the underline from links */
-    color: black; /* Change the color of the links to black */
-}
-
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 nav a:hover {
