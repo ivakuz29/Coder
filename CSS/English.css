@@ -18,19 +18,24 @@ header h1, header p {
     text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Creates a shadow outline */
 }
 
+
+
+/* Center the text in all sections */
+.section {
+    text-align: center; /* This centers the text within each section */
+}
+
+/* Optional: Centering the navigation links */
 nav {
-    background-color: #a17474;
-    display: flex;
-    justify-content: center; /* Centers the items horizontally */
+    text-align: center; /* Centers the nav items */
 }
 
 nav a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    margin: 0 15px; /* Optional: Add some spacing between the links */
+    text-decoration: none; /* Optional: Remove the underline from links */
+    color: black; /* Change the color of the links to black */
+}
+
 }
 
 nav a:hover {
@@ -56,14 +61,20 @@ h2 {
     margin-top: 0;
 }
 
+/* Centering images */
 img {
-    max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
-    height: auto; /* Maintains the image's aspect ratio */
-    object-fit: cover; /* Scales the image to fill the container without stretching */
-    border-radius: 8px; /* Optional: adds rounded corners to the images */
-    justify-content: center; /* Centers the image horizontally */
-    margin: 20px 0; /* Adds some space above and below the image */
+    display: block;        /* Change the display property to block */
+    margin-left: auto;    /* Auto margin on the left */
+    margin-right: auto;   /* Auto margin on the right */
+    max-width: 100%;      /* Ensure images are responsive */
+    height: auto;         /* Maintain aspect ratio */
 }
+
+/* Optional: Centering section content */
+.section {
+    text-align: center;   /* Centers text within sections */
+}
+
 
 iframe {
     width: 100%;
