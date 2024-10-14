@@ -52,15 +52,17 @@ nav a:hover {
 }
 
 h2 {
-    color: #008080;
+    color: #000000;
     margin-top: 0;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
+    max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+    height: auto; /* Maintains the image's aspect ratio */
+    object-fit: cover; /* Scales the image to fill the container without stretching */
+    border-radius: 8px; /* Optional: adds rounded corners to the images */
+    justify-content: center; /* Centers the image horizontally */
+    margin: 20px 0; /* Adds some space above and below the image */
 }
 
 iframe {
@@ -89,7 +91,7 @@ footer {
 }
 
 footer a {
-    color: #00d9d9;
+    color: #ffffff;
     text-decoration: none;
 }
 
